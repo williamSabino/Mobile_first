@@ -4,9 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="reset.css">
     <title>My Books</title>
 </head>
 <body>
-    <h1>Hello world</h1>
+    <header class="cabecario">
+        <div class="cabecario__container">
+            <input type="checkbox" name="menu" id="hamburguer" class="cabecario__container__botao">
+
+            <label class="botao__menu" for="hamburguer">
+                <span class="cabecario__container__hamburguer"></span>
+            </label>
+
+            <ul class="botao__menu__lista">
+                <li>
+                    <h3 class="botao__menu__lista__titulo">Categorias</h3>
+                </li>
+                <li>
+                    <a href="">PROGRAMAÇÃO</a>
+                </li>
+                <li>
+                    <a href="">FRONT-END</a>
+                </li>
+                <li>
+                    <a href="">INFRAESTRUTURA</a>
+                </li>
+                <li>
+                    <a href="">BUSINESS</a>
+                </li>
+                <li>
+                    <a href="">DESIGNE & UX</a>
+                </li>
+            </ul>
+
+            <img src="./assets/Logo.svg" alt="Logo" class="cabecario__container__img">
+        </div>
+        <div class="cabecario__container">
+            <a href="#"><img src="./assets/Favoritos.svg" alt="favoritos" class="cabecario__container__img"></a>
+            <a href="#"><img src="./assets/Compras.svg" alt="compras" class="cabecario__container__img"></a>
+            <a href="#"><img src="./assets/Usuario.svg" alt="usuario" class="cabecario__container__img"></a>
+        </div>
+    </header>
 </body>
 </html>

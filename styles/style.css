@@ -1,4 +1,11 @@
+@import url("./header.css");
+
+:root{
+    --cor-cabecario: #ffffff;
+    --cor-background: #C4C4C4;
+    --cor-secundaria: #EB9B00;
+}
+
 body{
-    background-color: #000000;
-    color: #f6f6f6;
+    background-color: var(--cor-background);
 }
