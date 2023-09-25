@@ -46,6 +46,9 @@
 }
 
 .botao__menu__lista > li > a{
+    color: var(--cor-Fonte);
+    font-family: var(--fonte-menu);
+    font-weight: 400;
     text-decoration: none;
     display: inline-block;
     margin-top: 2rem;
@@ -54,3 +57,4 @@
 .botao__menu__lista li :hover{
     transform: scale(1.1);
 }
+    

@@ -1,9 +1,13 @@
 @import url("./header.css");
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 :root{
     --cor-cabecario: #ffffff;
     --cor-background: #C4C4C4;
     --cor-secundaria: #EB9B00;
+    --cor-Fonte: linear-gradient(#002F52);
+    --fonte-menu: 'Poppins', sans-serif;
+
 }
 
 body{
