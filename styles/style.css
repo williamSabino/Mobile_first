@@ -1,13 +1,19 @@
 @import url("./header.css");
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url("./banner.css");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
 
 :root{
     --cor-cabecario: #ffffff;
     --cor-background: #C4C4C4;
     --cor-secundaria: #EB9B00;
-    --cor-Fonte: linear-gradient(#002F52);
+    --cor-degrade: linear-gradient(to bottom right, #002f52, #326589);
     --fonte-menu: 'Poppins', sans-serif;
 
+}
+
+*{
+    font-family: var(--fonte-menu);
+    font-weight: 400;
 }
 
 body{

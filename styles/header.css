@@ -43,10 +43,11 @@
 
 .botao__menu__lista__titulo{
     color: var(--cor-secundaria);
+    font-weight: 700;
 }
 
 .botao__menu__lista > li > a{
-    color: var(--cor-Fonte);
+    color: var(--cor-degrade);
     font-family: var(--fonte-menu);
     font-weight: 400;
     text-decoration: none;
