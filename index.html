@@ -45,7 +45,19 @@
         <div class="cabecario__container">
             <a href="#"><img src="./assets/Favoritos.svg" alt="favoritos" class="cabecario__container__img"></a>
             <a href="#"><img src="./assets/Compras.svg" alt="compras" class="cabecario__container__img"></a>
-            <a href="#"><img src="./assets/Usuario.svg" alt="usuario" class="cabecario__container__img"></a>
+
+            <input class="cabecario__container__botao__usuario" type="checkbox" name="usuario" id="usuario">
+            <label for="usuario">
+                <span class="cabecario__container__usuario"></span>
+            </label>
+
+            <ul class="botao__menu__lista__usuario">
+                <li>
+                    <h3 class="botao__menu__lista__titulo">Usuario</h3>
+                </li>
+                <li><a href="#">Entrar</a></li>
+                <li><a href="#">Registrar</a></li>
+            </ul>
         </div>
     </header>
 
@@ -85,11 +97,11 @@
     <section class="card">
         <div class="card__descricao">
 
-          <div class="card__descricao__texts">
-            <h2 class="card__descricao__titulo">Talvez você também se interesse por...</h2>
-            <h3 class="card__descricao__sub-titulo">Angular 11 e Firebase</h3>
-            <p class="card__descricao__texto">Construindo uma aplicação integrada com a plataforma do Google.</p>
-          </div>
+            <div class="card__descricao__texts">
+                <h2 class="card__descricao__titulo">Talvez você também se interesse por...</h2>
+                <h3 class="card__descricao__sub-titulo">Angular 11 e Firebase</h3>
+                <p class="card__descricao__texto">Construindo uma aplicação integrada com a plataforma do Google.</p>
+            </div>
             <img class="card__descricao__imagem" src="./assets/Angular.svg" alt="Angular card">
         </div>
 
@@ -131,12 +143,13 @@
     <section class="card">
         <div class="card__descricao">
 
-          <div class="card__descricao__texts">
-            <img class="card__descricao__estrelinhas" src="./assets/Estrelinhas.svg" alt="">
-            <h2 class="card__descricao__titulo">Autora do Mês</h2>
-            <h3 class="card__descricao__sub-titulo">Juliana Agarikov</h3>
-            <p class="card__descricao__texto">Analista de sistemas e escritora, Juliana é especialista em Front-End. </p>
-          </div>
+            <div class="card__descricao__texts">
+                <img class="card__descricao__estrelinhas" src="./assets/Estrelinhas.svg" alt="">
+                <h2 class="card__descricao__titulo">Autora do Mês</h2>
+                <h3 class="card__descricao__sub-titulo">Juliana Agarikov</h3>
+                <p class="card__descricao__texto">Analista de sistemas e escritora, Juliana é especialista em Front-End.
+                </p>
+            </div>
             <img class="card__descricao__imagem" src="./assets/Escritora.svg" alt="Angular card">
         </div>
 
@@ -148,6 +161,34 @@
             <a class="card__imagens__ancora" href="#">Saiba mais</a>
         </div>
     </section>
+
+    <section class="topicos">
+        <h2 class="topicos__titulo">TÓPICOS VISITADOS RECENTEMENTE</h2>
+        <ul class="topicos__lista">
+            <li class="topicos__lista__linha">Android</li>
+            <li class="topicos__lista__linha">Marketing Digital</li>
+            <li class="topicos__lista__linha">Agile</li>
+            <li class="topicos__lista__linha">Startups</li>
+            <li class="topicos__lista__linha">HTML & CSS</li>
+            <li class="topicos__lista__linha">Python</li>
+            <li class="topicos__lista__linha">POO</li>
+            <li class="topicos__lista__linha">Java</li>
+        </ul>
+    </section>
+
+    <section class="contato">
+        <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
+        <p class="contato__texto">Atualizações de e-books, novos livros, promoções e outros.</p>
+        <input type="search" name="email" id="email" class="contato__email" placeholder="Cadastre seu e-mail">
+    </section>
+
+    <hr>
+
+    <footer class="rodape">
+        <h2 class="rodape__titulo">Grupo Alura</h2>
+    </footer>
+
+
 
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>

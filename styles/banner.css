@@ -17,6 +17,8 @@
 }
 
 .banner__input{
+    font-size: 15px;
+    color: var(--cor-cabecario);
     background: transparent;
     margin-bottom: 32px;
     border: solid 2px var(--cor-cabecario);
