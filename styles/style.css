@@ -5,9 +5,10 @@
 @import url("./topicos.css");
 @import url("./contato.css");
 @import url("./rodape.css");
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Poppins:wght@300;400;500;700&display=swap');
 
 :root{
+    --fonte-josefin: 'Josefin Sans', sans-serif;
     --cor-preto : #000000;
     --cor-cabecario: #ffffff;
     --cor-terciaria-azul: #002F52;
