@@ -1,21 +1,20 @@
 @import url("./header.css");
 @import url("./banner.css");
+@import url("./carrocel.css");
+@import url("./card.css");
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
 
 :root{
+    --cor-preto : #000000;
     --cor-cabecario: #ffffff;
+    --cor-terciaria-azul: #002F52;
     --cor-background: #C4C4C4;
     --cor-secundaria: #EB9B00;
     --cor-degrade: linear-gradient(to bottom right, #002f52, #326589);
     --fonte-menu: 'Poppins', sans-serif;
-
-}
-
-*{
-    font-family: var(--fonte-menu);
-    font-weight: 400;
 }
 
 body{
     background-color: var(--cor-background);
+    font-family: var(--fonte-menu);
 }

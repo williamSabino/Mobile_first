@@ -1,0 +1,20 @@
+.carrocel__titulo {
+    background: var(--cor-cabecario);
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--cor-secundaria);
+    font-weight: 700;
+    font-size: 18px;
+    padding: 1rem 0 1rem 0;
+}
+
+.swiper-slide img {
+    width: 100%;
+}
+
+.swiper-button-next:after, .swiper-button-prev:after { display: none; }
+
+.swiper-pagination {
+    margin: 0.5rem 0 0.5rem 0;
+    position: initial !important;
+}
