@@ -27,5 +27,23 @@
 @media screen and (min-width: 1024px) {
     .carrocel__titulo {
         padding: 2.5rem 0 1.2rem 0;
+        font-size: 1.62rem;
     }
+
+    .swiper-pagination{
+        padding: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .swiper{
+        width: 70%;
+    }
+
+    .swiper-button-prev:after,
+    .swiper-button-next:after{
+        display: block;
+        position: relative;
+        top: 90%;
+    }
+
 }

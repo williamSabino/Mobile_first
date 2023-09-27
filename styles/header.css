@@ -118,4 +118,11 @@
         text-decoration: none;
         color: var(--cor-preto);
     }
+
+    .cabecario__container__input-categorias:checked~.botao__menu__lista{
+        display: block;
+    }
+    .cabecario__container__input-categorias{
+        display: none;
+    }
 }

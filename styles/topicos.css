@@ -25,3 +25,17 @@
     padding: 16px 24px;
     background: var(--cor-secundaria);
 }
+
+@media screen and (min-width: 1024px){
+    .topicos__titulo{
+        font-size: 1.5rem;
+    }
+
+    .topicos__listado{
+        padding: 50px;
+    }
+
+    .topicos__lista__linha{
+        font-size: 1.5rem;
+    }
+}
