@@ -81,6 +81,10 @@
     display: none;
 }
 
+.cabecario__container__img__descricao{
+    display: none;
+}
+
 
 
 
@@ -124,5 +128,28 @@
     }
     .cabecario__container__input-categorias{
         display: none;
+    }
+}
+
+
+/*Desktop*/
+@media screen and (min-width: 1728px) {
+    .botao__menu__lista__usuario {
+        display: none;
+        left: 88%;
+    }
+    
+    .cabecario__container__usuario__label{
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+    .cabecario__container__img__descricao{
+        display: block;
+        font-size: 1.25rem;
+    }
+
+    .cabecario{
+        padding: 0 30px;
     }
 }
