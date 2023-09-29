@@ -61,3 +61,11 @@
         font-size: 1rem;
     }
 }
+
+
+/*Desktop*/
+@media screen and (min-width: 1728px){
+    .banner__input{
+        width: 50%;
+    }
+}
