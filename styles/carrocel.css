@@ -49,5 +49,8 @@
 }
 
 @media screen and (min-width: 1728px) {
-  
+  .carrocel{
+    width: 60%;
+    margin-left: 20%;
+  }
 }
