@@ -81,16 +81,17 @@
 
         </div>
         <div class="cabecario__container">
-            <a href="#"><img src="./assets/Favoritos.svg" alt="favoritos"class="cabecario__container__img cabecario__container__favoritos"></a>
-            
+            <a href="#"><img src="./assets/Favoritos.svg" alt="favoritos"
+                    class="cabecario__container__img cabecario__container__favoritos"></a>
+
             <span class="cabecario__container__usuario__label">
                 <a href="#"><img src="./assets/Compras.svg" alt="compras" class="cabecario__container__img"></a>
-            
-            <p class="cabecario__container__img__descricao">Minha Sacola</p>    
+
+                <p class="cabecario__container__img__descricao">Minha Sacola</p>
             </span>
-            
+
             <input class="cabecario__container__botao__usuario" type="checkbox" name="usuario" id="usuario">
-            
+
             <label class="cabecario__container__usuario__label" for="usuario">
                 <span class="cabecario__container__usuario"></span>
                 <p class="cabecario__container__img__descricao">Meu perfil</p>
@@ -330,10 +331,15 @@
             spaceBetween: 10,
             slidesPerView: 3,
             loop: true,
-            pagination: {
+        pagination: {
                 el: ".swiper-pagination",
                 type: "bullets",
-            }
+            },
+             // Navigation arrows
+        navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
         });
     </script>
 
